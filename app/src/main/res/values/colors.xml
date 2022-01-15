@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorGris">#F2A3A5A5</color>
+    <color name="colorGrisCmnt">#65F4F4F4</color>/**/
+    <color name="tabIndicatorGray">#256A6767</color>
+    <color name="colorBlack">#F2000000</color>
+    <color name="colorblack">#F2191717</color>
+    <color name="colorWhite_é">#F2F4F4F4</color>
+    <color name="grey_10">#ECE8E8</color>
+    <color name="White">#FFFFFF</color>
+    <color name="grey_12">#A5A1A1</color>
+    <color name="colorNoirLeger">#F22A2C2C</color>
+    <color name="colorBleu">#E4032642</color>
+    <color name="colorTransp">#00008577</color>
+    <color name="colorIkwook">#82B0D8</color>
+    <color name="colorIkwook2">#AED581</color>
+    <color name="colorPrimary">#004785</color>
+    <color name="colorPrimaryDark">#003157</color>
+    <color name="colorBlu">#37003157</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccen">#36D81B60</color>
+    <color name="colorAccent1">#14D81B60</color>
+    <color name="colorRouge">#F8020A</color>
+    <color name="colorRed">#D01919</color>
+
+    <color name="likeBtnGris">#747474</color>
+    <color name="likeBtnVer">#E9087061</color>
+    <color name="colorOrange">#EC8C39</color>
+    <color name="grey_20">#cccccc</color>
+
 </resources>
