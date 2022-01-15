@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:text="Nom User"
                     android:textStyle="bold"
-                    android:textColor="@color/grey_10"
+                    android:textColor="@color/colorblack"
                     android:textSize="20sp"
                     android:layout_gravity="center"
                     android:layout_marginStart="10dp"/>
@@ -48,247 +48,250 @@
 
         </androidx.cardview.widget.CardView>
 
-        <LinearLayout
+        <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginTop="30dp"
-            android:layout_marginStart="30sp"
-            android:layout_marginEnd="30sp"
-            android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/card_container">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:text="Bienvenu"
-                android:textSize="25sp"
-                android:textStyle="normal" />
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <LinearLayout
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="horizontal">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        android:backgroundTint="@color/colorOrange">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="90dp"
-                                android:layout_height="70dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:paddingBottom="10dp"
-                                android:text="PPS et Demande"
-                                android:textColor="@color/grey_10"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        android:backgroundTint="@color/colorOrange">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="90dp"
-                                android:layout_height="70dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:paddingBottom="10dp"
-                                android:text="Historique"
-                                android:textColor="@color/grey_10"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        android:backgroundTint="@color/colorOrange">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="90dp"
-                                android:layout_height="70dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:paddingBottom="10dp"
-                                android:text="PPs et Demande"
-                                android:textColor="@color/grey_10"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-
-                </LinearLayout>
+                    android:layout_marginStart="20dp"
+                    android:text="Bienvenu"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        android:backgroundTint="@color/colorOrange">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:backgroundTint="@color/colorIkwook2">
 
-                            <ImageView
-                                android:layout_width="90dp"
-                                android:layout_height="70dp" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:paddingBottom="10dp"
-                                android:text="   "
-                                android:textColor="@color/grey_10"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="110dp" />
 
-                        </LinearLayout>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingBottom="10dp"
+                                    android:text="PPS et Demande"
+                                    android:textColor="@color/grey_10"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal" />
 
-                    </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        android:backgroundTint="@color/colorOrange">
+                        </androidx.cardview.widget.CardView>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:backgroundTint="@color/colorOrange">
 
-                            <ImageView
-                                android:layout_width="90dp"
-                                android:layout_height="70dp" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:paddingBottom="10dp"
-                                android:text="  "
-                                android:textColor="@color/grey_10"
-                                android:textSize="14sp"
-                                android:textStyle="normal" />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/ic_baseline_edit_note"/>
 
-                        </LinearLayout>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingBottom="10dp"
+                                    android:text="PPS et Demande"
+                                    android:textColor="@color/grey_10"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal" />
 
-                    </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="100dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="5dp"
-                        android:backgroundTint="@color/colorOrange">
+                        </androidx.cardview.widget.CardView>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                    </LinearLayout>
 
-                            <ImageView
-                                android:layout_width="90dp"
-                                android:layout_height="70dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:paddingBottom="10dp"
-                                android:text="probleme"
-                                android:textColor="@color/grey_10"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:backgroundTint="@color/grey_12">
 
-                        </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
 
-                    </androidx.cardview.widget.CardView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="110dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingBottom="10dp"
+                                    android:text="PPS et Demande"
+                                    android:textColor="@color/grey_10"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:backgroundTint="@color/colorIkwook">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="110dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingBottom="10dp"
+                                    android:text="PPS et Demande"
+                                    android:textColor="@color/grey_10"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:backgroundTint="@color/likeBtnVer">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="110dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingBottom="10dp"
+                                    android:text="PPS et Demande"
+                                    android:textColor="@color/grey_10"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:backgroundTint="@color/colorRed">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="110dp"
+                                    android:src="@drawable/ic_baseline_warning"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:paddingBottom="10dp"
+                                    android:text="PPS et Demande"
+                                    android:textColor="@color/grey_10"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Test"
-                    android:layout_marginTop="50dp"
-                    android:textSize="15sp"
-                    android:textColor="@color/grey_10"
-                    android:background="@color/colorOrange"
-                    tools:ignore="MissingConstraints" />
-
             </LinearLayout>
 
-        </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
