@@ -112,6 +112,7 @@
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
+                            android:id="@+id/card_maps"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
@@ -289,7 +290,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
 
         </androidx.core.widget.NestedScrollView>
 

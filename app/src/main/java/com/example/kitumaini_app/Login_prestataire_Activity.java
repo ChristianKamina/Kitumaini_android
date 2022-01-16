@@ -13,13 +13,11 @@ public class Login_prestataire_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_prestataire_);
-        Button b = findViewById(R.id.loginbeneficiarebutton);
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(Login_prestataire_Activity.this, HomeActivity.class);
-                startActivity(i);
-            }
+
+        Button b = findViewById(R.id.btn_prest_login);
+        b.setOnClickListener(v -> {
+            Intent i = new Intent(Login_prestataire_Activity.this, HomeActivity.class);
+            startActivity(i);
         });
     }
 }
