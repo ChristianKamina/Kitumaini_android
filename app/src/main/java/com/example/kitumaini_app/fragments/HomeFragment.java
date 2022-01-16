@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.kitumaini_app.EnrolementActivity;
 import com.example.kitumaini_app.MapsActivity;
 import com.example.kitumaini_app.R;
 
@@ -21,6 +22,8 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+
+        view.findViewById(R.id.card_enrol).setOnClickListener(v -> startActivity(new Intent(getContext(), EnrolementActivity.class)));
 
         view.findViewById(R.id.card_maps).setOnClickListener(v -> startActivity(new Intent(getContext(), MapsActivity.class)));
 

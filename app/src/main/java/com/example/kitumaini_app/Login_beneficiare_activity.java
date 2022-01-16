@@ -9,6 +9,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -17,7 +18,7 @@ import java.util.Calendar;
 
 public class Login_beneficiare_activity extends AppCompatActivity {
 
-    TextInputEditText txt_benef_date;
+    TextView txt_benef_date;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
