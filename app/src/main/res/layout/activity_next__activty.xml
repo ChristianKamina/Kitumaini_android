@@ -31,7 +31,9 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="26dp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/colorOrange"
+        android:textSize="16dp"
+        android:paddingTop="20dp"/>
 
     <Button
         android:id="@+id/beneficiarebutton"
@@ -44,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.602"
-        android:background="@color/white"/>
+        android:background="@color/colorOrange"/>
 
     <Button
         android:id="@+id/prestatairebutton"
@@ -55,6 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorOrange"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
