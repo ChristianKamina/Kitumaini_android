@@ -3,11 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/bordure.xml" value="0.2203125" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/bordurerondvert.xml" value="0.2203125" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/custom_input.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_arrow_drop_down.xml" value="0.2203125" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_edit_note.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_fingerprint.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_fingerprint_actif.xml" value="0.2203125" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_home.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_local_phone.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_notifications.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_person.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_photo_camera.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_place.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_baseline_warning.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_email.xml" value="0.2203125" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/drawable/ic_lock_24.xml" value="0.2203125" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/activity_enrolement.xml" value="0.22" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/activity_home.xml" value="0.17572463768115942" />
@@ -16,7 +29,7 @@
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/activity_maps.xml" value="0.22" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/activity_next__activty.xml" value="0.2006340579710145" />
-        <entry key="..\:/Kitumaini_android/app/src/main/res/layout/fragment_form.xml" value="0.19010416666666666" />
+        <entry key="..\:/Kitumaini_android/app/src/main/res/layout/fragment_form.xml" value="0.22" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/fragment_notification.xml" value="0.19010416666666666" />
         <entry key="..\:/Kitumaini_android/app/src/main/res/layout/fragment_picture.xml" value="0.19655797101449277" />

@@ -46,4 +46,5 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:2.2.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32"
     api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'androidx.biometric:biometric:1.1.0'
 }
