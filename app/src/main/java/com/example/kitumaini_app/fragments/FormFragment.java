@@ -43,8 +43,8 @@ public class FormFragment extends Fragment {
         sp_enrollment_sex = view.findViewById(R.id.sp_enrollment_sex);
 
         listSex = new ArrayList<>();
-        listSex.add("Masculin");
         listSex.add("Feminin");
+        listSex.add("Masculin");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, listSex);
         sp_enrollment_sex.setAdapter(adapter);
