@@ -10,12 +10,12 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="25sp">
+        android:paddingTop="15sp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_gravity="center"
             android:layout_marginStart="20dp"
             android:layout_marginTop="55dp"
@@ -24,14 +24,16 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@mipmap/ic_profil"/>
+                    android:src="@mipmap/ic_profil"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20sp"/>
 
                 <TextView
                     android:id="@+id/txt_name_user"
@@ -95,8 +97,9 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="70dp"
                                     android:layout_height="110dp"
+                                    android:layout_gravity="center"
                                     android:src="@drawable/ic_baseline_edit_note"/>
 
                                 <TextView
@@ -128,8 +131,9 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="70dp"
                                     android:layout_height="110dp"
+                                    android:layout_gravity="center"
                                     android:src="@drawable/ic_baseline_place"
                                     app:tint="@color/White" />
 
@@ -270,8 +274,9 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="70dp"
                                     android:layout_height="110dp"
+                                    android:layout_gravity="center"
                                     android:src="@drawable/ic_baseline_warning"/>
 
                                 <TextView
